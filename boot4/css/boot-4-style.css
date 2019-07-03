@@ -1,0 +1,247 @@
+
+body{
+	height:7000px;
+}
+/*start uper-nav*/
+.uper-nav{
+	background-color:#08526d;
+	color:#FFF;
+	padding:10px;
+}
+/*end uper-nav*/
+/*start navbar*/
+.my-navbar .navbar-brand span:first-child{
+	color:#ec1c26;
+	font-weight:500;
+}
+.my-navbar .navbar-brand span:last-child{
+	color:#08526d;
+}
+.navbar-light .navbar-nav .active>.nav-link{
+	color:#ec1c26 !important;}
+.navbar-light .navbar-nav .nav-link{
+	font-size:20px;
+	text-transform:uppercase;
+	margin-left:7px;
+}
+
+/*end navbar*/
+/*start slider*/
+.my-slider{
+	
+}
+.my-slider .carousel-inner{
+	display:flex;
+	align-items:center;
+	justify-content:left;
+}
+.my-slider .carousel-inner span{
+	background-color:#ec1c26;
+}
+.my-slider h1{
+	position:absolute;
+	z-index:3;
+	font-size:70px;
+	left:100px;
+	color:#FFF;
+	line-height:1.5;
+	max-width:900px;;
+}
+
+.my-slider .overlay{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,.6);
+	z-index:2;
+}
+
+.my-slider .carousel-item{
+	-moz-background-size:cover;
+	-ms-background-size:cover;
+	-o-background-size:cover;
+	-webkit-background-size:cover;
+	background-size:cover;
+	}
+.my-slider .carousel-one{
+	background-image:url(../images/j21-full.jpg);
+}
+.my-slider .carousel-two{
+  background-image:url(../images/j23-full.jpg);
+}
+.my-slider .carousel-three{
+	background-image:url(../images/j25-full.jpg);
+}
+
+/*end slider*/
+/*start features*/
+.my-features{
+	margin:80px;
+}
+.my-features i{
+	background-color:#ec1c26;
+	color:#FFF;
+	padding:10px;
+	margin-bottom:10px;
+}
+.my-features h3{
+	
+color:#08526d;
+}
+/*end features*/
+/*start company-overview*/
+.company-overview{
+	margin:10px;
+	background-color:#f0f5f7;
+	padding:50px;
+}
+.company-overview h2{
+	text-transform:uppercase;
+	margin-bottom:15px;
+	letter-spacing:2px;
+	
+}
+.company-overview p{
+	width:80%;
+	text-align:center;
+	line-height:2.6;
+	margin:auto;
+}
+.company-overview h4{
+	letter-spacing:2px;
+	text-transform:uppercase;
+	color:#999;
+}
+.company-overview button{
+	background-color:#ec1c26;
+	color:#FFF;
+	padding:15 20px;
+	font-weight:bold;
+	font-size:20px;
+	border:#ec1c26 1px solid;
+	margin-top:15px;
+}
+/*end company-overview*/
+/*start featured-work*/
+.featured-work{
+	margin-top:70px;
+}
+.featured-work h2{
+	text-transform:uppercase;
+	margin-bottom:15px;
+	letter-spacing:2px;
+	
+}
+.featured-work p{
+	width:80%;
+	text-align:center;
+	line-height:1.6;
+	margin:auto;
+}
+.featured-work ul{
+padding-top:20px;
+}
+.featured-work ul li{
+	border:2px solid #08526d;
+	margin-left:5px;
+	color:#08526d;
+	cursor:pointer;
+	transition:all ease-in-out .4s;
+	-moz-transition:all ease-in-out .4s;
+	-ms-transition:all ease-in-out .4s;
+	-o-transition:all ease-in-out .4s;
+	-webkit-transition:all ease-in-out .4s;
+}
+.featured-work  .anas,
+.featured-work ul li:hover
+{
+	border:2px solid #ec1c26;
+	background-color:#ec1c26;
+	color:#FFF;
+}
+.featured-work .row {
+	margin:0;
+}
+.featured-work .shuffle-imgs{
+	margin-top:50px;
+}
+.featured-work .row .col-md{
+	padding:0;
+		transition:all ease-in-out .4s;
+	-moz-transition:all ease-in-out .4s;
+	-ms-transition:all ease-in-out .4s;
+	-o-transition:all ease-in-out .4s;
+	-webkit-transition:all ease-in-out .4s;
+}
+.featured-work .row img{
+	width:100%;
+		transition:all ease-in-out .4s;
+	-moz-transition:all ease-in-out .4s;
+	-ms-transition:all ease-in-out .4s;
+	-o-transition:all ease-in-out .4s;
+	-webkit-transition:all ease-in-out .4s;
+}
+
+	
+
+/*end featured-work*/
+/*start latest-posts*/
+.latest-posts{
+	margin-top:70px;
+}
+.latest-posts h2{
+	text-transform:uppercase;
+	margin-bottom:15px;
+	letter-spacing:2px;
+	
+}
+.latest-posts .description{
+	width:80%;
+	text-align:center;
+	line-height:1.6;
+	margin:auto;
+	margin-bottom:50px;
+}
+.latest-posts .card{
+	margin-bottom:30px;
+	
+}
+.latest-posts .card-body h5{
+	color:#08526d;
+}
+.latest-posts .card-body a{
+	color:#ec1c26;
+	font-weight:bold;
+}
+/*end latest-posts*/
+/*start teastmonils*/
+.teastmonils{
+	background-image:url(../images/j21-full.jpg);
+	background-size:cover;
+	position:relative;
+}
+
+.teastmonils .overlay{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,.6);
+	z-index:2;
+}
+
+
+.teastmonils .container
+{
+	position:relative;
+	z-index:5;
+}
+.teastmonils .carousel-caption{
+top:50%;
+margin-top:-168px;
+}
+/*end teastmonils*/
+	
